@@ -42,5 +42,5 @@ jobs:
     # Step 7: Tag and push Docker image to DockerHub
     - name: Push Docker image to DockerHub
       run: |
-        docker tag meetlakhani99/my-node-app meetlakhani99/my-node-app:latest
-        docker push meetlakhani99/my-node-app:latest
+        docker tag meetlakhani99/my-node meetlakhani99/my-node:latest
+        docker push meetlakhani99/my-node:latest
